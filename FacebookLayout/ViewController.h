@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UIGestureRecognizerDelegate>
+@property (nonatomic, retain)UIView *topLayer;
+@property (nonatomic) CGFloat topLayerPosition;
+@property (nonatomic, retain) UITableView* tableView;
+@property (nonatomic, retain) NSMutableArray *dataArray;
 @end
