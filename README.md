@@ -3,7 +3,7 @@ FacebookLayout
 
 Facebook UI(slide view) Sample
 
-##License  
+## License  
 The MIT License (MIT)  
 
 Copyright (c) 2013 Furuyama Takeshi
